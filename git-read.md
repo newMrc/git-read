@@ -24,6 +24,10 @@
 - 2. `git log --oneline`  查看简洁版的日志
 
 #### 忽略某些文件(.ider)
-- 1.建一个 .gitignore 文件
+- 新建一个 .gitignore 文件
     + `touch .gitignore`
     + 在该文件中添加配置  以 `/`开头 后面跟不需要提交的文件名 `.idea`
+
+#### 版本返回 
+- 1. `git reset --hard Head~0` 回退到上次提交的位置
+- 2. `git reset --hard 版本号` 回到某个指定的版本号
