@@ -18,3 +18,12 @@
 
 #### 一次性把修改的文件提交到.git仓储中
 - `git commit --all -m '提交描述'`
+
+#### 查看修改日志
+- 1. `git log`   查看详细的修改日志
+- 2. `git log --oneline`  查看简洁版的日志
+
+#### 忽略某些文件(.ider)
+- 1.建一个 .gitignore 文件
+    + `touch .gitignore`
+    + 在该文件中添加配置  以 `/`开头 后面跟不需要提交的文件名 `.idea`
