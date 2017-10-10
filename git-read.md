@@ -43,3 +43,14 @@
 - 3.切换分支 `git checkout 分支名字`
 - 4.合并分支 `git merge 要合并的分支的名字`
   **一般都是合并到master,master默认为主支**
+
+#### 上传到GitHub上
+
+- 在GitHub中创建一个仓库,复制仓库链接
+
+- 回到peoject目录中 
+
+- 命令: `git push 仓库链接 master`
+
+  ​
+
